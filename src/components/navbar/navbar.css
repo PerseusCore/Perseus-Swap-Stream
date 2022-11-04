@@ -1,0 +1,61 @@
+.per__navbar {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #060b26;
+
+    padding: 2rem 6rem;
+}
+
+.per__navbar-links {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.per__navbar-links_logo img {
+    width: 158px;
+    height: 50px;
+    margin-right: 1rem;
+}
+
+.per__navbar-links_container {
+    display: flex;
+    flex-direction: row;
+}
+
+.per__navbar-sign {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.per__navbar-links_container p,
+.per__navbar-sign p,
+.per__navbar-menu_container p {
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.per__navbar-sign button,
+.per__navbar-menu_container button {
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background: #FF4820;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}

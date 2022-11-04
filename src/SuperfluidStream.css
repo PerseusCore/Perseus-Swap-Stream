@@ -1,0 +1,49 @@
+.per__navi {
+    display: flex;
+    flex-direction: row;
+}
+ 
+.sfb__heather h1 {
+  font-size: 44px;
+  line-height: 55px;
+  font-weight: 800;
+  font-family: var(--font-family);
+  max-width: 510px;
+  color: rgb(5, 47, 185);
+}
+
+.sfb__heather {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.description {
+    margin-top: 3%;
+  }
+  
+  .mb-3 {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  
+  .calculation {
+    border: 2px solid green;
+    padding: 2.5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2.5%;
+  }
+  
+  .connectedWallet {
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 3%;
+  }
+  
+  #connectWallet {
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 3%;
+  }
