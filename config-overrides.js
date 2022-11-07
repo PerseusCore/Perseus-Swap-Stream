@@ -52,7 +52,7 @@ module.exports = function override(config, env) {
             },
         ],
     },
-    mode: 'production',
+    mode: "production",
     performance: {
         maxEntrypointSize: 512000,
         maxAssetSize: 512000
@@ -63,11 +63,6 @@ module.exports = function override(config, env) {
    },
    entry: {
     "app": "./src/index.js"
-    },
-    output: {
-      path: path.join(__dirname, 'dist'),
-      filename: "[name].js",
-      sourceMapFilename: "[name].js.map"
     },
     devtool: "source-map",
     resolve: { 
@@ -89,12 +84,11 @@ module.exports = function override(config, env) {
     },
     output: {
     filename: 'bundle.js',
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'build'),
     },
     plugins: [
         new Dotenv({
             systemvars: true, // load all the predefined 'process.env' variables which will trump anything local per dotenv specs.
-            silent: true, // hide any errors
           }),
         new webpack.ProvidePlugin({
             Buffer: ['buffer', 'Buffer'],
