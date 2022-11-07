@@ -92,7 +92,10 @@ module.exports = function override(config, env) {
     path: path.resolve(__dirname, 'dist'),
     },
     plugins: [
-        new Dotenv(),
+        new Dotenv({
+            systemvars: true, // load all the predefined 'process.env' variables which will trump anything local per dotenv specs.
+            silent: true, // hide any errors
+          }),
         new webpack.ProvidePlugin({
             Buffer: ['buffer', 'Buffer'],
             process: 'process/browser'
