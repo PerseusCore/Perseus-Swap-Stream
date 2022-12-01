@@ -11,7 +11,7 @@ export default async function deleteFlow(recipient) {
 
     const chainId = await window.ethereum.request({ method: "eth_chainId" });
     const superfluid = await Framework.create({
-        chainId: Number(chainId),
+        chainId: 137,
         provider: provider,
     });
 

@@ -11,7 +11,7 @@ export default async function createNewFlow(recipient, flowRate) {
 
     const chainId = await window.ethereum.request({ method: "eth_chainId" });
     const superfluid = await Framework.create({
-        chainId: Number(chainId),
+        chainId: 137,
         provider: provider,
     });
 

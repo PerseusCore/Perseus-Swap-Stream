@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@lifi/sdk": "^1.6.3",
-    "@lifi/widget": "^1.22.0",
+    "@lifi/sdk": "^1.7.0",
+    "@lifi/widget": "^1.26.3",
     "@superfluid-finance/sdk-core": "^0.5.7",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
