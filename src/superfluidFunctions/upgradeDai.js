@@ -36,7 +36,7 @@ async function daiApprove(amt) {
     await DAI.approve(
       "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063",
       ethers.utils.parseEther(amt.toString()),
-      { gasLimit: gasLimit }
+      { gasPrice: gasPrice, gasLimit: gasLimit }
     ).then(function (tx) {
       console.log(
         `Congrats, you just approved your NEAR spend. You can see this tx at https://polygonscan.com/txs/${tx.hash}`
