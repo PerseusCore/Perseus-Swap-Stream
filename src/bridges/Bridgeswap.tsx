@@ -4,7 +4,7 @@ import { LiFiWidget, WidgetConfig } from '@lifi/widget';
 const widgetConfig: WidgetConfig = {
   integrator: 'Perseus',
   fromChain: 137,
-  fromToken: '0x8f3cf7ad23cd3cadbd9735aff958023239c6a063',
+  fromToken: '0x1305F6B6Df9Dc47159D12Eb7aC2804d4A33173c2',
   containerStyle: {
     border: '1px solid rgb(234, 234, 234)',
     borderRadius: '16px',
