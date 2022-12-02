@@ -15,7 +15,7 @@ export default async function updateExistingFlow(recipient, flowRate) {
         provider: provider,
     });
 
-    const DAIxContract = await superfluid.loadSuperToken("fDAIx");
+    const DAIxContract = await superfluid.loadSuperToken("DAIx");
     const DAIx = DAIxContract.address;
 
     try {

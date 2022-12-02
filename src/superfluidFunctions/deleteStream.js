@@ -15,7 +15,7 @@ export default async function deleteFlow(recipient) {
         provider: provider,
     });
 
-    const DAIxContract = await superfluid.loadSuperToken("fDAIx");
+    const DAIxContract = await superfluid.loadSuperToken("DAIx");
     const DAIx = DAIxContract.address;
 
     const accounts = await window.ethereum.request({ method: "eth_requestAccounts" });
